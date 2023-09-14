@@ -1,0 +1,1 @@
+D:\Work\SmartHome\SmartHomeHub\SmartHomeHub.csproj;x64

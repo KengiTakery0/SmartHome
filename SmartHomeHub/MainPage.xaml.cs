@@ -1,24 +1,31 @@
-﻿namespace SmartHomeHub
+﻿using SmartHomeHub.Model;
+
+namespace SmartHomeHub
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void OnConectClicked(object sender, EventArgs e)
         {
-            count++;
+            try
+            {
+                DataBaseConnector.filePath = "D:\\Work\\SmartHome\\SmartHomeHub\\DataBase\\Home.db";
+                DataBaseConnector.Connect();
+                //DataBaseConnector.CreateUser();
+                GenerateMessage.ShowAlertOneOption(this, "Регистрация", "Пользователь Успешно Создан", "OK");
+            }
+            catch (Exception)
+            {
+                GenerateMessage.ShowAlertOneOption(this, "Регистрация", $"{e}\n попробуйте перзагрузить приложение", "OK");
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+                throw;
+            }
         }
     }
 }

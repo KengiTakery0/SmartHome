@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Work\SmartHome\SmartHomeHub\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-14T12:01:06.595</Modified>
+      <Modified>2023-09-14T20:02:18.736</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Work\SmartHome\SmartHomeHub\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-14T11:54:56.227</Modified>
+      <Modified>2023-09-14T20:02:18.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\SmartHome\SmartHomeHub\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SmartHomeHub.runtimeconfig.json">
       <PackagePath>SmartHomeHub.runtimeconfig.json</PackagePath>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\SmartHome\SmartHomeHub\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SmartHomeHub.dll">
       <PackagePath>SmartHomeHub.dll</PackagePath>
-      <Modified>2023-09-14T12:01:05.050</Modified>
+      <Modified>2023-09-14T20:02:15.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\SmartHome\SmartHomeHub\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SmartHomeHub.exe</PackagePath>
-      <Modified>2023-09-14T12:01:05.066</Modified>
+      <Modified>2023-09-14T20:02:15.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\SmartHome\SmartHomeHub\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SmartHomeHub.deps.json">
       <PackagePath>SmartHomeHub.deps.json</PackagePath>
-      <Modified>2023-09-14T11:48:53.496</Modified>
+      <Modified>2023-09-14T20:02:17.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kengi\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
